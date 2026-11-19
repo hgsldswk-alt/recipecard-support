@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>离线食谱卡 · Offline Recipe Cards</title>
+  <style>
+    :root { color-scheme: light; font: 17px/1.6 system-ui, sans-serif; background: #f8f5ef; color: #25211e; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    main { max-width: 48rem; margin: auto; padding: 3rem 1.3rem; }
+    header { margin-bottom: 2rem; }
+    h1, h2, h3, p { margin: 0; }
+    h1 { font-size: clamp(2rem, 7vw, 3rem); line-height: 1.12; }
+    h2 { font-size: 1.45rem; line-height: 1.25; }
+    h3 { font-size: 1.05rem; margin: 1.35rem 0 0.2rem; }
+    nav { display: flex; flex-wrap: wrap; gap: 0.75rem 1.4rem; margin-top: 1rem; }
+    a { color: #a53b2d; text-underline-offset: 0.2em; }
+    article { background: #fffdf8; border: 1px solid #e6dbd1; border-radius: 1rem; padding: clamp(1.15rem, 5vw, 2rem); margin: 0 0 1rem; }
+    section + section { margin-top: 1.4rem; border-top: 1px solid #e6dbd1; padding-top: 1.4rem; }
+    p + p { margin-top: 0.65rem; }
+  </style>
+</head>
+<body>
+<main id="help">
+  <header>
+    <h1>离线食谱卡</h1>
+    <nav aria-label="语言与隐私">
+      <a href="#zh-hans" lang="zh-Hans">简体中文</a>
+      <a href="#zh-hant" lang="zh-Hant">繁體中文</a>
+      <a href="#en" lang="en">English</a>
+      <a href="#privacy">隐私 / Privacy</a>
+    </nav>
+  </header>
+  <article lang="zh-Hans" id="zh-hans">
+    <section>
+      <h2>使用帮助</h2>
+      <h3>存下食谱</h3>
+      <p>点「新建」写下菜名，按行填写食材和做法。已有文字可点「粘贴文本」后校对。未识别的文字保存在自用备注里。</p>
+      <h3>发送或导入</h3>
+      <p>从菜谱详情可分享食谱图，或在「更多」复制口令或发送可编辑文件。收件人在「我的食谱 → 导入」粘贴口令或选取文件，确认后即可编辑自己的副本。</p>
+      <h3>保存原始资料</h3>
+      <p>「导出完整食谱」保留单张食谱的照片和自用备注。试用到期仍可看、改、下厨、逐张导出和恢复已有备份。「更多」可恢复购买。</p>
+      <p>帮助邮箱 <a href="mailto:2522855586@qq.com">2522855586@qq.com</a></p>
+    </section>
+    <section id="privacy">
+      <h2>隐私政策</h2>
+      <p>离线食谱卡不收集个人数据。食谱、照片、草稿和下厨记录保存在本机，无账号、广告、分析或云同步。</p>
+      <p>你主动粘贴或选取照片、文件时，App 只读取本次选取的内容。你主动分享或导出时，内容会交给你选择的系统服务。Apple 处理购买、试用凭证、恢复和评分。</p>
+    </section>
+  </article>
+  <article lang="zh-Hant" id="zh-hant">
+    <section>
+      <h2>使用說明</h2>
+      <h3>存下食譜</h3>
+      <p>點「新增」寫下菜名，逐行填寫食材和作法。已有文字可點「貼上文字」後校對。無法分段的文字會放入私人備註。</p>
+      <h3>傳送或匯入</h3>
+      <p>在食譜詳情可分享食譜圖，或從「更多」複製代碼及傳送可編輯檔案。收件人可在「我的食譜 → 匯入」貼上代碼或選擇檔案，確認後編輯自己的副本。</p>
+      <h3>保留原始資料</h3>
+      <p>「匯出完整食譜」保留單張食譜的照片和私人備註。試用到期仍可查看、編輯、開煮、逐張匯出和還原已有的備份。在「更多」可回復購買。</p>
+      <p>支援信箱 <a href="mailto:2522855586@qq.com">2522855586@qq.com</a></p>
+    </section>
+    <section id="privacy-zh-hant">
+      <h2>隱私權政策</h2>
+      <p>離線食譜卡不蒐集個人資料。食譜、照片、草稿和下廚紀錄保存在裝置上，沒有帳號、廣告、分析或雲端同步。</p>
+      <p>App 只讀取你主動貼上或選擇的內容。分享或匯出時，內容會交給你選定的系統服務。Apple 處理購買、試用憑證、回復及評分。</p>
+    </section>
+  </article>
+  <article lang="en" id="en">
+    <section>
+      <h2>Help</h2>
+      <h3>Save a recipe</h3>
+      <p>Tap New recipe, name the dish and add ingredients and steps one line at a time. When you paste text, review the suggested sections. Unsorted text goes into Private notes.</p>
+      <h3>Send or import</h3>
+      <p>Share a recipe card from the recipe screen. Open More to copy a recipe code or send an editable file. In My Recipes, the recipient can tap Import and preview the code or file before saving a copy.</p>
+      <h3>Keep the originals</h3>
+      <p>Export full recipe includes the photo and private notes for one recipe. You can still view, edit, cook, export individual recipes and restore existing backups after the trial. Open More to restore purchases.</p>
+      <p>Support <a href="mailto:2522855586@qq.com">2522855586@qq.com</a></p>
+    </section>
+    <section id="privacy-en">
+      <h2>Privacy policy</h2>
+      <p>Offline Recipe Cards does not collect personal data. Recipes, photos, drafts and cooking records stay on your device. There are no accounts, ads, analytics or cloud sync.</p>
+      <p>The app reads the content you paste or select. Sharing and exporting hand content to the system service you choose. Apple handles purchases, trial receipts, restoration and ratings.</p>
+    </section>
+  </article>
+</main>
+</body>
+</html>
